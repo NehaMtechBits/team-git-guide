@@ -33,9 +33,7 @@ You don't need to memorize every Git command. For our daily workflow, you will o
 Create the file in your project folder:
 
 ```bash
-
 New-Item commands.md
-
 ```
 
 Copy and paste the content above into the new commands.md file and save it.

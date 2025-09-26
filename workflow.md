@@ -47,19 +47,18 @@ git checkout -b <your-new-branch-name>
 
 Make your code changes. It is a best practice to save your work in small, logical chunks called commits.
 
-````bash
+```bash
 
 # 1. Check which files you have changed
 
 git status
 
-```bash
 # 2. Add your changed files to be "staged" for the next commit
 git add .  # The '.' adds all changed files in the current folder
 
 # 3. Save your work with a clear message
 git commit -m "feat: Add user email field to login form"
-````
+```
 
 #### Step 4: Push Your Branch to GitHub
 
