@@ -40,32 +40,37 @@ Use this single command to create the branch and switch to it immediately:
 ```bash
 
 git checkout -b <your-new-branch-name>
-Step 3: Do Your Work (Code & Commit Often)
-Make your code changes. It is a best practice to save your work in small, logical chunks called commits.
+
 ```
 
-```bash
+#### Step 3: Do Your Work (Code & Commit Often)
+
+Make your code changes. It is a best practice to save your work in small, logical chunks called commits.
+
+````bash
 
 # 1. Check which files you have changed
+
 git status
 
+```bash
 # 2. Add your changed files to be "staged" for the next commit
 git add .  # The '.' adds all changed files in the current folder
 
 # 3. Save your work with a clear message
 git commit -m "feat: Add user email field to login form"
-```
+````
 
-```bash
+#### Step 4: Push Your Branch to GitHub
 
-Step 4: Push Your Branch to GitHub
 When you are ready to share your work or open it for review, push your new branch and its commits to the remote repository on GitHub.
-```
+
+````
 
 ```bash
 
 git push origin <your-new-branch-name>
-```
+````
 
 #### Step 5: Open a Pull Request (PR)
 
