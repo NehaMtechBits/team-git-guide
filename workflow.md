@@ -65,12 +65,11 @@ git commit -m "feat: Add user email field to login form"
 
 When you are ready to share your work or open it for review, push your new branch and its commits to the remote repository on GitHub.
 
-````
-
 ```bash
 
 git push origin <your-new-branch-name>
-````
+
+```
 
 #### Step 5: Open a Pull Request (PR)
 
