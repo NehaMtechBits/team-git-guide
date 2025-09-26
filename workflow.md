@@ -1,6 +1,3 @@
-Of course. Here is the complete, corrected content formatted as a raw Markdown code block.
-
-Markdown
 
 # ✅ Our Standard Team Workflow
 
