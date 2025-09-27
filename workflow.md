@@ -1,7 +1,7 @@
 
 # ✅ Our Standard Team Workflow
 
-This is the **only workflow** we will use for all projects. It is designed to be safe, prevent conflicts, and allow for code reviews.
+This is the **only workflow** we will use for all projects. Before starting, you can always find the high-level contribution rules in the `CONTRIBUTING.md` file in the repository's root. It is designed to be safe, prevent conflicts, and allow for code reviews.
 
 ### The Golden Rule: Never Push Directly to the `main` Branch
 
@@ -73,13 +73,11 @@ A Pull Request is a formal request to merge your changes into the main branch.
 
 Go to the repository on GitHub.
 
-You will see a green button to "Compare & pull request" for your recently pushed branch. Click it.
-
-Give your PR a clear title and a brief description of what you did.
-
-On the right side, assign at least one team member to review your code.
-
-Click "Create pull request."
+1.  Go to the repository on GitHub.
+2.  You will see a green button to **"Compare & pull request"** for your recently pushed branch. Click it.
+3.  **Fill out the template.** You will notice the description box is already filled out with our template. Please fill in all the        required sections (e.g., "Summary of Changes," "How to Test"). This ensures every PR is clear and easy to review.
+4.  On the right side, assign at least one team member to **review** your code.
+5.  Click **"Create pull request."**
 
 #### Step 6: Review, Merge, and Clean Up
 
