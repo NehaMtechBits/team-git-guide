@@ -2,11 +2,16 @@
 
 Reading is one thing, but doing is how we truly learn. These exercises will walk you through the standard workflow on a safe, shared practice repository.
 
+This guide is split into two parts. Master the basic exercises first to build a strong foundation before moving on to the advanced skills.
+
 ### Setup: The Practice Repository
 
 Before you begin, one person on the team should create a new, **public, empty repository** on GitHub named `team-git-practice`. Do not add a README or any other files. Share the clone URL with everyone.
 
 ---
+## Part 1: Basic Skills (Everyone Must Complete)
+
+These exercises cover the essential day-to-day workflow.
 
 ### Exercise 1: Your First Contribution
 
@@ -72,7 +77,28 @@ Before you begin, one person on the team should create a new, **public, empty re
 
 ---
 
-### Exercise 3: Amending a Commit
+### Exercise 3: Collaborating on a Branch
+
+**Goal:** To learn how to work with a teammate on the same feature branch. **This requires a partner!**
+
+**Partner A:**
+1.  Create and push a new branch: `git checkout -b feature/collaborate` and `git push -u origin feature/collaborate`.
+2.  On GitHub, go to your repository's **Settings > Collaborators** and add Partner B as a collaborator.
+
+**Partner B:**
+1.  Fetch the new branch from GitHub and switch to it: `git fetch` and `git checkout feature/collaborate`.
+2.  Add a new file called `review.md` with some text.
+3.  Stage, commit, and push your changes to the branch: `git add .`, `git commit -m "feat: Add review file"`, `git push origin feature/collaborate`.
+
+**Partner A:**
+1.  Pull the changes Partner B just pushed: `git pull origin feature/collaborate`. You should now see the `review.md` file.
+
+---
+## Part 2: Advanced Skills (Important Scenarios)
+
+These exercises cover more complex but crucial situations you will face.
+
+### Exercise 4: Amending a Commit
 
 **Goal:** To learn how to fix the most recent commit. This is useful if you made a typo in the commit message or forgot to include a file.
 
@@ -101,7 +127,7 @@ Before you begin, one person on the team should create a new, **public, empty re
 
 ---
 
-### Exercise 4: "Time Travel" to View Old Versions
+### Exercise 5: "Time Travel" to View Old Versions
 
 **Goal:** To learn how to view the project's state at a previous point in time.
 
@@ -122,7 +148,7 @@ Before you begin, one person on the team should create a new, **public, empty re
 
 ---
 
-### Exercise 5: Cleaning Up History with Interactive Rebase
+### Exercise 6: Cleaning Up History with Interactive Rebase
 
 **Goal:** To learn how to combine multiple "work-in-progress" commits into a single, clean commit before opening a Pull Request.
 
@@ -140,7 +166,7 @@ Before you begin, one person on the team should create a new, **public, empty re
 
 ---
 
-### Exercise 6: Resolving a Merge Conflict (Skill Spotlight 🚨)
+### Exercise 7: Resolving a Merge Conflict (Skill Spotlight 🚨)
 
 **Goal:** To understand and fix a merge conflict. **This exercise requires a partner!**
 
@@ -169,7 +195,7 @@ Before you begin, one person on the team should create a new, **public, empty re
 
 ---
 
-### Exercise 7: Reverting a Bad Merge
+### Exercise 8: Reverting a Bad Merge
 
 **Goal:** To learn how to safely undo a change that has already been merged into `main`.
 
