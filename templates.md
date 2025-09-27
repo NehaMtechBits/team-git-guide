@@ -1,15 +1,17 @@
+Markdown
+
 # 📄 Our Contribution Templates
 
 To keep our workflow consistent and clear, we use two main templates: one for overall contributions and one for Pull Requests.
 
 ---
 
-### ## The `CONTRIBUTING.md` File
+## The `CONTRIBUTING.md` File
 
 This file is the high-level guide for anyone working in our repositories. It sets the ground rules for our workflow, communication, and coding standards. A link to it is automatically shown when someone creates a new issue or pull request.
 
 **Here is our `CONTRIBUTING.md` template:**
-```markdown
+
 # Contributing to Our Project
 
 Thank you for contributing! To ensure a smooth process, please follow these guidelines.
@@ -21,10 +23,13 @@ Thank you for contributing! To ensure a smooth process, please follow these guid
 - Ensure your PR is reviewed and approved before merging.
 
 ## Commit Messages
-- Use the Conventional Commits specification (e.t., `feat:`, `fix:`, `docs:`).
+- Use the Conventional Commits specification (e.g., `feat:`, `fix:`, `docs:`).
+The PULL_REQUEST_TEMPLATE.md File
+This template automatically populates the description box when you open a new Pull Request. Its purpose is to ensure every PR provides the necessary information for a reviewer to understand and approve the changes quickly.
+
+**Here is our PULL_REQUEST_TEMPLATE.md:**
 
 
-## The PULL_REQUEST_TEMPLATE.md File
 
 ## 📝 Description
 
@@ -55,8 +60,8 @@ Please provide clear, step-by-step instructions for the reviewer to test your ch
 2. `npm install` (or appropriate command)
 3. `npm start` (or appropriate command)
 4. Go to `http://localhost:3000/...` and verify...
-    - [ ] Test case A
-    - [ ] Test case B
+   - [ ] Test case A
+   - [ ] Test case B
 
 
 ## 📸 Screenshots / Recordings
@@ -80,4 +85,3 @@ Please go through this checklist before you request a review.
 - [ ] I have added tests that prove my fix is effective or that my feature works.
 - [ ] All new and existing unit tests pass locally with my changes.
 - [ ] I have checked that there are no hardcoded secrets (API keys, etc.).
-
