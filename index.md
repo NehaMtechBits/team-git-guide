@@ -16,9 +16,9 @@ This guide will teach you the fundamentals of Git and the exact workflow we will
 ## 🧭 What's Inside This Guide
 
 - **[Git vs. GitHub](./git-vs-github.md):** What's the difference?
-- **[Our Contribution Templates](./templates.md):** A look at our PR and Contributing templates.
 - **[Ignoring Files (`.gitignore`)](./ignoring-files.md):** How to keep your repository clean.?
 - **[Core Concepts](./concepts.md):** Understand the big picture before you type any commands.
 - **[Our Team Workflow](./workflow.md):** The step-by-step process we will follow for every task.
 - **[Commands Cheat Sheet](./commands.md):** A quick reference for the essential Git commands.
+- **[Our Contribution Templates](./templates.md):** A look at our PR and Contributing templates.
 - **[Demos & Exercises](./exercises.md):** Practice what you've learned to build confidence.
