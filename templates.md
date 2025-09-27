@@ -12,7 +12,7 @@ This file is the high-level guide for anyone working in our repositories. It set
 
 **Here is our `CONTRIBUTING.md` template:**
 
-# Contributing to Our Project
+## Contributing to Our Project
 
 Thank you for contributing! To ensure a smooth process, please follow these guidelines.
 
@@ -27,9 +27,11 @@ Thank you for contributing! To ensure a smooth process, please follow these guid
 The PULL_REQUEST_TEMPLATE.md File
 This template automatically populates the description box when you open a new Pull Request. Its purpose is to ensure every PR provides the necessary information for a reviewer to understand and approve the changes quickly.
 
+## The `PULL_REQUEST_TEMPLATE.md` File
+
+This template automatically populates the description box when you open a new Pull Request. Its purpose is to ensure every PR provides the necessary information for a reviewer to understand the changes, know how to test them, and approve them quickly and efficiently.
+
 **Here is our PULL_REQUEST_TEMPLATE.md:**
-
-
 
 ## 📝 Description
 
