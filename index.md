@@ -1,4 +1,4 @@
-'# 🚀 Welcome to Our Git & GitHub Guide
+# 🚀 Welcome to Our Git & GitHub Guide
 Hello team! This guide is our new single source of truth for how we build software together.
 
 **Why are we doing this?**
