@@ -11,10 +11,11 @@ To solve common problems we face:
 
 This guide will teach you the fundamentals of Git and the exact workflow we will follow. Let''s get started!
 
-efore you begin, please ensure you have the following tools installed and configured:
+Before you begin, please ensure you have the following tools installed and configured:
 1.  **[Git](https://git-scm.com/downloads)** (run `git config` with your name and email)
 2.  **[Visual Studio Code](https://code.visualstudio.com/)** (or your preferred editor)
 3.  **[GitHub CLI](https://cli.github.com/)** (run `gh auth login`)
+
 ---
 
 ## 🧭 What's Inside This Guide
